@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_marginTop="160dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        >
+    </TextView>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="2dp"
+        android:hint="请输入账号"
+        android:padding="1dp"
+        android:textSize="15sp" >
+    </EditText>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="2dp"
+        android:hint="密码"
+        android:padding="1dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:textSize="15sp" >
+    </EditText>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+        <Button
+            android:id="@+id/register"
+            android:layout_marginLeft="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:textColor="#ffffff"
+            android:background="#1E90FF"
+            >
+            </Button>
+        <Button
+            android:id="@+id/sign_up"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:textColor="#ffffff"
+            android:background="#1E90FF"
+                >
+            </Button>
+        </LinearLayout>
+
+</LinearLayout>
