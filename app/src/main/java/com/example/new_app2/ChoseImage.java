@@ -48,7 +48,8 @@ public class ChoseImage extends AppCompatActivity implements View.OnClickListene
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.cancelBtn:
-                Toast.makeText(this, "取消了", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this, "取消了", Toast.LENGTH_SHORT).show();
+                finish();
                 break;
             case R.id.image_1:
                 retImage(R.drawable.g2);
