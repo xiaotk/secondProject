@@ -22,7 +22,8 @@
         android:layout_marginLeft="2dp"
         android:hint="请输入账号"
         android:padding="1dp"
-        android:textSize="15sp" >
+        android:textSize="15sp"
+        android:background="@drawable/border_edit_text">
     </EditText>
 
 
@@ -34,7 +35,8 @@
         android:padding="1dp"
         android:layout_marginTop="10dp"
         android:inputType="textPassword"
-        android:textSize="15sp" >
+        android:textSize="15sp"
+        android:background="@drawable/border_edit_text">
     </EditText>
 
         <LinearLayout
